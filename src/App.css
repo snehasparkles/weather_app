@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+
+}
+body{
+    background-image: linear-gradient(#352F44,#B9B4C7);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    margin-top: 30px;
+    color: #000000;
+    border-radius: 30px;
+    height: 600px;
+    width: 360px;
+    background-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.formelement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.searchtab{ 
+    color: #352F44;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    border-top: 0.3px solid grey;
+    border-bottom: 0.3px solid grey;
+    border-right: none;
+    border-left: 0.3px solid grey;
+    font-size: 16px;
+    padding: 5px;
+}
+.searchtab:focus{
+    outline: none;
+}
+.searchtab:focus-visible{
+    outline-offset: 0px;
+}
+.search_logo{
+    
+    width: 20px;
+    height: 20px;
+    
+}
+.search-btn{
+    margin-top: 30px; 
+    background-color: white;
+    border-radius: 0px 10px 10px 0px ;
+    border-left: none;
+    border-right: 0.3px solid grey;
+    border-top: 0.3px solid grey;
+    border-bottom: 0.3px solid grey;
+    cursor: pointer;
+    width: 30px;
+    height: 40px;
+}
+.imagediv{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-icon{
+    
+    width: 150px;
+    height: 150px;
+    
+}
+.temp{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.stateelement{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: darkgreen; 
+    text-transform: uppercase;
+}
+.country{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.latlong{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  
+}
+.laty{
+    font-size: 18px;
+}
+.longy{
+    font-size: 18px;
+}
+.lat{
+   padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.log{
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.humiwind{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+ 
+}
+.humiele{
+    background-color: #ffffff;
+    
+}
+.windele{
+ background-color: rgb(255, 255, 255);
+    
+}
+.humicon{
+    width: 40px;
+    height: 40px;
+   
+}
+.windicon{
+    width: 40px;
+    height: 40px;
+}
+.humidity{
+    text-align: center;
+}
+.wind{
+    text-align: center;
+}
+.copyright{
+    margin-top: 30px;
+    text-align: center;
+    color: #888;
+}
+.developername{
+    color: #333;
+}
+.hum{
+    font-size: 14px;
+}
+.win{
+    font-size: 14px;
+}
+.val{
+    font-weight: bold;
+}
